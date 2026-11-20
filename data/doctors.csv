@@ -1,0 +1,12 @@
+# Nota Hospital doctors (original dataset made for this project).
+# skill: 1 (junior) - 10 (expert). Shifts are daily; an end time earlier
+# than the start time means the shift runs overnight.
+name,age,dob,skill,shift_start,shift_end
+Maya Patel,52,1974-03-12,9,06:00,14:00
+Daniel Kim,34,1992-07-08,4,08:00,16:00
+Grace Okafor,45,1981-01-25,8,10:00,22:00
+Luis Romero,39,1987-09-30,6,14:00,22:00
+Hannah Weiss,29,1997-05-17,3,16:00,00:00
+Ethan Brooks,31,1995-12-05,5,18:00,02:00
+Omar Haddad,58,1968-11-02,10,22:00,06:00
+Sofia Alvarez,47,1979-08-14,7,00:00,08:00

@@ -1,0 +1,65 @@
+# Nota Hospital ER patients (original dataset made for this project).
+# condition: 0 (healthy) - 10 (critical).
+# time_limit_min: minutes the patient can wait before becoming critical.
+# Notes on the data:
+#  - Several groups arrive at the same time (car accident 08:30,
+#    food poisoning 17:45, bar fight 23:15).
+#  - "Sam Lee, 34" and "Maria Garcia, 28" each appear twice with different
+#    dates of birth: name + age is not unique, name + age + dob is.
+#  - Patient "Daniel Kim" shares a name with a doctor; they live in
+#    different B-Trees.
+name,age,dob,condition,ailment,arrival_day,arrival_time,time_limit_min
+Sam Lee,34,1992-02-14,6,Broken wrist,1,06:00,120
+Maria Garcia,28,1998-06-03,3,Sprained ankle,1,06:00,240
+Robert Chen,67,1959-04-22,8,Chest pain,1,06:15,45
+Aisha Bello,22,2004-09-11,2,Sore throat,1,06:45,360
+Tom Walsh,45,1981-03-30,5,Kidney stone,1,07:00,90
+Emily Davis,9,2017-01-19,4,High fever,1,07:15,120
+George Miller,81,1945-07-07,7,Fall injury,1,07:30,60
+Linh Tran,30,1996-10-02,3,Migraine,1,07:45,180
+Marcus Johnson,19,2007-05-25,9,Car accident - head injury,1,08:30,20
+Kayla Johnson,17,2009-08-14,6,Car accident - fractured arm,1,08:30,60
+Derek Simmons,42,1984-02-08,7,Car accident - whiplash,1,08:30,45
+Nina Petrova,36,1990-12-01,5,Car accident - lacerations,1,08:30,90
+Sam Lee,34,1991-12-30,4,Allergic rash,1,09:00,150
+Olivia Brown,55,1971-03-16,6,Abdominal pain,1,09:15,90
+Carlos Diaz,38,1988-07-29,2,Minor burn,1,09:45,300
+Fatima Khan,63,1963-11-09,8,Shortness of breath,1,10:00,30
+Ben Turner,26,2000-04-04,3,Back pain,1,10:30,240
+Grace Liu,71,1955-08-23,5,Dizziness,1,11:00,120
+Henry Adams,48,1978-01-12,10,Cardiac arrest,1,11:15,15
+Zoe Martinez,6,2020-06-30,4,Ear infection,1,11:45,180
+Ian Murphy,33,1993-09-17,6,Deep cut,1,12:00,90
+Priya Shah,40,1986-02-02,3,Food allergy,1,12:30,120
+Jack Wilson,58,1968-05-05,7,Stroke symptoms,1,13:00,30
+Maria Garcia,28,1997-12-12,5,Asthma attack,1,13:15,60
+Leo Rossi,12,2014-03-08,2,Sprained wrist,1,13:45,300
+Hannah Scott,24,2002-10-21,6,Appendicitis,1,14:00,60
+Victor Huang,50,1976-07-15,4,Gout flare,1,14:30,180
+Ruth Cohen,88,1938-02-27,8,Pneumonia,1,15:00,45
+Diego Morales,31,1995-11-11,5,Dislocated shoulder,1,15:30,90
+Chloe Evans,15,2011-04-14,3,Concussion check,1,16:00,180
+Peter Novak,62,1964-09-01,7,Diabetic emergency,1,16:30,45
+Amy Park,27,1999-03-03,5,Food poisoning,1,17:45,90
+Brian Park,29,1997-01-21,6,Food poisoning,1,17:45,75
+Sofia Park,4,2022-07-19,7,Food poisoning - dehydration,1,17:45,45
+Kevin OBrien,44,1982-08-08,4,Broken toe,1,18:15,240
+Laura Fischer,37,1989-05-27,6,Severe migraine,1,18:45,90
+Ahmed Yusuf,52,1974-12-19,9,Heart attack symptoms,1,19:00,20
+Isabel Cruz,21,2005-02-13,3,Sports injury,1,19:30,240
+Noah Williams,8,2018-10-10,5,Broken arm,1,20:00,90
+Martha Green,76,1950-06-06,6,Fainting,1,20:15,60
+Ryan Foster,35,1991-08-31,8,Motorcycle crash,1,20:45,30
+Jade Nguyen,19,2007-01-05,4,Alcohol poisoning,1,21:30,90
+Owen Clark,60,1966-03-22,5,Hypertension,1,22:00,120
+Mia Lopez,30,1996-04-18,7,Pregnancy complication,1,22:30,30
+Ethan Ward,23,2003-07-11,8,Bar fight - stab wound,1,23:15,30
+Lucas Hill,24,2002-11-29,5,Bar fight - broken nose,1,23:15,90
+Ava Reed,46,1980-09-09,3,Anxiety attack,2,00:15,300
+Samuel Price,69,1957-12-24,7,Irregular heartbeat,2,01:00,45
+Ella Bennett,3,2023-05-15,6,Croup,2,01:45,60
+Daniel Kim,34,1991-12-01,4,Hand laceration,2,02:30,150
+Rosa Alvarez,57,1969-10-30,5,Severe nausea,2,03:15,120
+Tyler Young,18,2008-08-02,9,Overdose,2,04:00,15
+Wendy Moore,41,1985-01-28,2,Pink eye,2,04:45,360
+Sam Lee,52,1974-06-10,3,Bee sting,2,05:30,180

@@ -1,0 +1,17 @@
+# Build output
+build/
+hospital
+hospital_cli
+hospital_tests
+*.exe
+*.o
+*.d
+
+# Course handouts (not our work)
+*.pdf
+
+# Editor / tool folders
+.vscode/
+.idea/
+.claude/
+.DS_Store
